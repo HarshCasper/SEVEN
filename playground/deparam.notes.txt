@@ -1,0 +1,18 @@
+/***** Commands run in Browser ****/
+
+window.location.search
+_______________________
+
+/*** Result  ***/
+
+"?name=PangdaHi&room=Panda"
+
+
+(After Copying DeparamJS to Libs)
+
+jQuery.deparam(window.location.search)
+______________________________________
+
+/*** Result  ***/
+
+{name: "PangdaHi", room: "Panda"}
